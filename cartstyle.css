@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Header{
+    background-color: black;
+
+}
+.container{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: x-large;
+    padding-top: 125px;
+    color: aliceblue;
+}
+
+nav{
+    padding-top: 52px;
+    text-align: right;   
+}
+nav ul{
+    font-size: x-large;
+    padding-right: 12px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    color: aliceblue;
+}
+.cart{
+    margin: auto;
+    padding: 0%;
+}
+.cartbox{
+    display: flex;
+    padding: 55px;
+}
+.row img{
+    width: 340px;
+}
+
+ /*------cart table------*/
+
+.cartbox thead{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: pre-wrap;   
+}
+.cartbox table{
+    padding: 15px;
+    justify-items: center;
+    text-align: center;
+   
+}
+table thead td{
+    font-size: x-large;
+    padding: 15px;
+    border: 2px double red;
+    border-left: none;
+    border-right: none;
+    
+}
+table tbody td{
+    padding: 15px;
+    font-size: x-large;
+}
+table td:nth-child(1) .remove-btn{
+    font-size: large;
+    padding: 5px 10px 5px 10px;
+    color: aliceblue;
+    border-color: black;
+    background-color: gray;
+    border-radius: 12px;
+    transition: background 0.5s;
+}
+table td:nth-child(1) .remove-btn:hover{
+    background: red;
+}
+table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+table td:nth-child(5) input{
+    font-size: x-large;
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+.cartbox table img{
+    width: 100px;
+}
